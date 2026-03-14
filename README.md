@@ -1,6 +1,3 @@
-# PRIYANK KHATRI
-
-
 # 🧠 NeuroTab
 
 **Your Second Brain for the Internet**
@@ -68,87 +65,84 @@ The extension seamlessly works in the background to:
 [ AI Processing ]
         ↓
 [ Vector Database ]
+```
 
-# 🛠 Tech Stack
-Frontend
-JavaScript / TypeScript
+---
 
-Chrome Extension API
+## 🛠 Tech Stack
 
-React (optional)
+### Frontend
+* JavaScript / TypeScript
+* Chrome Extension API
+* React *(optional)*
 
-Backend & Database
-Node.js & Express.js
+### Backend & Database
+* Node.js & Express.js
+* MongoDB *(for user data & metadata)*
+* Vector Database *(Pinecone / Chroma / Weaviate for embeddings)*
 
-MongoDB (for user data & metadata)
+### AI Layer
+* OpenAI API / Gemini API
+* Embeddings *(for semantic search)*
 
-Vector Database (Pinecone / Chroma / Weaviate for embeddings)
+---
 
-AI Layer
-OpenAI API / Gemini API
+## 📷 Example Usage
 
-Embeddings (for semantic search)
+**User Query:**
+> "Find the React login system repo I opened yesterday"
 
-📷 Example Usage
-User Query:
+**AI Response:**
+> **Here are the most relevant results:**
+> 
+> **1. GitHub - React JWT Authentication**
+> * **Visited:** Yesterday
+> * **Summary:** Implementation of JWT authentication in React with a Node.js backend.
 
-"Find the React login system repo I opened yesterday"
+---
 
-AI Response:
+## 🎯 Use Cases
 
-Here are the most relevant results:
+* **Students:** Organizing research and sources for papers.
+* **Developers:** Saving and retrieving useful code snippets and repositories.
+* **Writers:** Tracking reference articles and inspiration.
+* **Knowledge Workers:** Managing project information seamlessly.
+* **Anyone:** People who open too many tabs and lose track of them!
 
-1. GitHub - React JWT Authentication
+---
 
-Visited: Yesterday
+## 🚀 Future Improvements
 
-Summary: Implementation of JWT authentication in React with a Node.js backend.
+- [ ] Cross-device memory sync
+- [ ] Proactive AI research assistant
+- [ ] Voice search capabilities
+- [ ] Knowledge graph visualization
+- [ ] Automated weekly research reports
 
-🎯 Use Cases
-Students: Organizing research and sources for papers.
+---
 
-Developers: Saving and retrieving useful code snippets and repositories.
+## 🔐 Privacy
 
-Writers: Tracking reference articles and inspiration.
-
-Knowledge Workers: Managing project information seamlessly.
-
-Anyone: People who open too many tabs and lose track of them!
-
-🚀 Future Improvements
-[ ] Cross-device memory sync
-
-[ ] Proactive AI research assistant
-
-[ ] Voice search capabilities
-
-[ ] Knowledge graph visualization
-
-[ ] Automated weekly research reports
-
-🔐 Privacy
 Your privacy is our priority. User data is:
+* Stored securely
+* Encrypted at rest and in transit
+* **Never** shared with or sold to third parties
+* Fully controlled by you (delete stored data at any time)
 
-Stored securely
+---
 
-Encrypted at rest and in transit
+## 🤝 Contribution
 
-Never shared with or sold to third parties
+Contributions are always welcome! If you'd like to improve NeuroTab, please follow these steps:
 
-Fully controlled by you (delete stored data at any time)
+1.  Fork the repository.
+2.  Create a new feature branch (`git checkout -b feature/AmazingFeature`).
+3.  Commit your changes (`git commit -m 'Add some AmazingFeature'`).
+4.  Push to the branch (`git push origin feature/AmazingFeature`).
+5.  Open a Pull Request.
 
-🤝 Contribution
-Contributions are always welcome! If you'd like to improve AI Internet Memory, please follow these steps:
+---
 
-Fork the repository.
+## 📜 License
 
-Create a new feature branch (git checkout -b feature/AmazingFeature).
-
-Commit your changes (git commit -m 'Add some AmazingFeature').
-
-Push to the branch (git push origin feature/AmazingFeature).
-
-Open a Pull Request.
-
-📜 License
-Distributed under the MIT License. See LICENSE for more information.
+Distributed under the MIT License. See `LICENSE` for more information.
